@@ -1,0 +1,361 @@
+.wrapper{
+    background-color: #fff;
+}
+/*header开始*/
+/*.header{*/
+    /*position: absolute;*/
+    /*top:0;*/
+/*}*/
+.nav-item .nav-download{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color: #f2f2f2;
+    color:#333333 ;
+}
+.nav-item .nav-download:hover, .nav-item .nav-download.active{
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.nl-navbar-brand{
+    color: #fff;
+}
+.nl-navbar-brand:hover,.nl-navbar-brand:active{
+    color: #fff
+}
+.nl-nav-link{
+    color: #fff;
+}
+.nl-nav-link:focus,.nl-nav-link:active,
+.nl-nav-link:hover {
+    color: #2f97ff; }
+.nl-navbar-brand:focus,.nl-navbar-brand:active,
+.nl-navbar-brand:hover{
+    color: #2f97ff;
+}
+.g-bg-white{
+    background-color: black !important;
+}
+::-moz-selection {
+    color: #fff;
+    background-color:#6c6c6c; }
+
+::selection {
+    color: #fff;
+    background-color:#6c6c6c; }
+.nl_logo{
+  margin-right: 1em;
+}
+.nav-item a{
+    text-transform: none;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{
+    background-color: #fff;
+}
+.g-bg-white-opacity-0_8{
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+/*header结束*/
+
+/*footer开始*/
+.nl-footer{
+    color: #313131;
+}
+.nl-footer a:hover,.nl-footer a:active{
+    color: inherit;
+}
+.footer-copyright{
+    color: #4a4a4a;
+    font-size: .5rem !important;
+}
+.des{
+    color:#a6a6a6 ;
+    padding: .2rem 0;
+}
+.footer-brand{
+  padding-bottom: 1.5rem;
+}
+.clause{
+    color: #a6a6a6;
+}
+/*footer结束*/
+
+/*banner开始*/
+
+.banner
+{
+    margin-top: -62px;
+}
+
+.nl-main{
+    color: #329aff;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    background: url("/public/img/banner.png")  no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.banner-des{
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    margin-top: 20px;
+}
+.banner-btn{
+    box-shadow: 1px 1px 1px  #62d2fe;
+    color: #313131 !important   ;
+    background: -moz-linear-gradient( left,#2f97ff,#62d2fe);
+    background: linear-gradient( left,#2f97ff,#62d2fe);
+    background: -webkit-linear-gradient( left,#2f97ff,#62d2fe);
+}
+.banner-btn:hover{
+    color: #313131 !important;
+    background: #2f97ff;
+}
+.banner-con{
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    top:25%;
+    z-index: 999;
+    max-width: 770px;
+}
+
+/*banner结束*/
+
+
+.nl-underline{
+    width: 100%;
+    text-align: center;
+}
+.nl-style{
+    display: inline-block;
+    width:4.5rem;
+    height:6px;
+    background: -moz-linear-gradient( left,#2f97ff,#62d2fe);
+    background: linear-gradient( left,#2f97ff,#62d2fe);
+    background: -webkit-linear-gradient( left,#2f97ff,#62d2fe);
+}
+.nl-stylelaw
+{
+    display: inline-block;
+    width:7rem;
+    height:2px;
+    background: -moz-linear-gradient( left,#2f97ff,#62d2fe);
+    background: linear-gradient( left,#2f97ff,#62d2fe);
+    background: -webkit-linear-gradient( left,#2f97ff,#62d2fe);
+}
+
+.nl-underline-sm{
+    width: 100%;
+    text-align: center;
+}
+.nl-style-sm{
+    display: inline-block;
+    width:3.6rem;
+    height:2px;
+    background: -moz-linear-gradient( left,#2f97ff,#62d2fe);
+    background: linear-gradient( left,#2f97ff,#62d2fe);
+    background: -webkit-linear-gradient( left,#2f97ff,#62d2fe);
+}
+
+/*应用场景开始*/
+#application{
+    background:url("../../public/img/applicationbg.gif") no-repeat center;
+    background-size: cover;
+    color: #606060 !important;
+    padding-bottom: 100px;
+}
+#application img{
+    width: 100%;
+}
+#application h3{
+    color: #606060;
+}
+.application-item .u-block-hover{
+    background-color: #fff;
+    min-height: 467px;
+}
+@media (min-width: 576px){
+    .application-item{
+        text-align: center;
+    }
+}
+@media (min-width: 992px){
+    .application-item{
+        text-align: center;
+    }
+}
+[class*="u-block-hover"]{
+    width: 90%;
+    margin:auto;
+}
+.nl-fa{
+    color: #2f97ff;
+}
+/*应用场景结束*/
+.dzsparallaxer:not(.mode-oneelement){
+    background-color: #272727;
+}
+/*steamer*/
+#streamer{
+    color: #fff;
+}
+.streamer{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    padding: 0 30%;
+    padding-bottom: 50px;
+}
+.streamer li{
+    display: inline-block;
+}
+@media (max-width: 768px){
+    .streamer-title img{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    .streamer-title{
+        font-size: 1.2rem !important;
+    }
+}
+/*技术优势*/
+#advantage{
+    background-color: #ffffff;
+}
+.ourteam
+{
+    background-color: #f5f5f5;
+}
+.circuit-img{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+}
+.imgborder
+{
+    border-radius: 50%;
+    width: 110px;
+}
+.ahover
+{
+    cursor: pointer;
+    color:#313131 !important;
+    text-decoration:none !important;
+}
+.ahover:hover
+{
+    color:#313131;
+    text-decoration:none;
+}
+.divfontcolor:hover>.ahover
+{
+    color: #313131;
+}
+.ahover:active
+{
+    color: #313131!important;
+    text-decoration:none;
+}
+.copyright{
+    color: #6c6c6c;
+   font-size: .5rem;
+}
+.footer-line{
+    background-color: #272727;
+}
+.g-law-width
+{
+    width: 90px;
+    font-size: 22px;
+    border-bottom: 2px solid #ffa200;
+}
+.lawcenter
+{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    /*position: relative;*/
+
+}
+.en-title
+{
+   margin-bottom: 1.5rem;
+}
+.section-law
+{
+    box-shadow: 0px 1px 30px 1px #d9d9d9 ;
+}
+.artile-title
+{
+    margin-bottom: 30px!important;
+    font-size: 18px;
+}
+.width-text
+{
+    width: 90%;
+    margin: 3rem  auto 0 auto;
+}
+.width-text>p
+{
+    margin-bottom: 0.3rem!important;
+    font-size: 12px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+#lawbanner
+{
+    background-image: url('../../public/img/lawbg.jpg');
+}
+.law-container {
+    margin-top: 61px;
+}
+.langs-items{
+    background-color: dimgrey;
+    position: absolute;
+    top:50px;
+    left: -10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.langs-items a{
+    padding: 15px;
+   color: #fff;
+}
+.langs{
+    position: relative;
+}
+.langs:hover{
+
+}
+.select-design{
+    cursor: pointer;
+    width: 165px;
+    margin: auto;
+   border-radius: 5px ;
+    border:1px solid white;
+
+}
+.select-design span{
+    display: block;
+    padding: 10px 20px;
+}
+.select-design span a{
+    color: white;
+}
+.select-design .hover:hover{
+    background-color: #eeeeee;
+}
+.select-design .hover:hover a{
+   color: black;
+}
+
+.select-design .hidden{
+    display: none;
+}
