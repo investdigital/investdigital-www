@@ -11,14 +11,18 @@ const CN = {
     nav_github_url: "https://github.com/investdigital",
     law_to_lang: "?lang=CN",
 
-    banner_notice: "InvestDigital项目正式上线公告",
-    notice_title: "InvestDigital项目正式上线公告",
+    banner_notice: "IDT(InvestDigital Token)上线AEX交易平台通告",
+    notice_title: "IDT(InvestDigital Token)上线AEX交易平台通告",
     notice_one: "关注InvestDigital项目的各位朋友：",
     notice_two: "大家好！感谢大家对InvestDigital项目的持续关注。",
-    notice_three: "InvestDigital已于2018年1月14日在全球知名交易所BigONE首发上线，这标志着InvestDigital项目商业计划正式跨入新的发展阶段。",
-    notice_four: "下一步，我们将努力推动商业落地，依托区块链和Fin-tech技术优势，稳步推进技术开发，与大家一同建立更加美好的数字资产投资生态！",
+
+    notice_three: "IDT上线AEX平台(比特时代海外版)，现已开放充币，2018年1月29日中午12点开放交易。",
+
+    // notice_three: "InvestDigital已于2018年1月14日在全球知名交易所BigONE首发上线，这标志着InvestDigital项目商业计划正式跨入新的发展阶段。",
+    // notice_four: "下一步，我们将努力推动商业落地，依托区块链和Fin-tech技术优势，稳步推进技术开发，与大家一同建立更加美好的数字资产投资生态！",
+
     notice_author: "InvestDigital项目团队",
-    notice_time: "2018年1月14日",
+    notice_time: "2018年1月25日",
 
     www_title: "数字货币一站式投资服务平台",
 
@@ -195,7 +199,7 @@ const CN = {
     team_section11_desc: "清华大学博士，加州大学戴维斯分校访问学者。主要研究领域为软件缺陷检测及漏洞分析、软件测试等。开发了多个软件安全验证和自动化测试平台。负责InvestDigital智能合约形式化验证。",
 
 
-    ourteam_title: "顾问团队",
+    ourteam_title: "董事会及顾问团队",
     ourteam_section1_name: "OracleChain",
     ourteam_section1_desc: "作为全球第一个在EOS生态圈上构筑的应用，OracleChain将解决该生态的Oracle（预言机）需求，实现区块链技术服务和现实生活中的多种需求场景直接高效对接。作为一个基于EOS的去中心化的Oracle技术平台，OracleChain采用自主的PoRD机制，将现实世界数据引入区块链，并将此作为基础设施为其他区块链应用提供服务。OracleChain的使命是“让世界与区块链互联”，立志打造未来区块链世界中最高效的获取链外数据的服务提供平台。",
     ourteam_section2_name: "Ennan Zhai",
@@ -204,6 +208,8 @@ const CN = {
     ourteam_section3_desc: "北京大学副研究员，德国曼海姆大学访问学者，主要研究方向为密码学和安全协议，著名国密算法开源项目GmSSL的主要开发者和社区领袖，研发了Hyperledger Fabric国密算法套件，培养了多名区块链方向硕士研究生。在椭圆曲线加密算法性能优化与安全增强领域有丰富研究和工程实践经验。",
     ourteam_section4_name: "陈宇",
     ourteam_section4_desc: "中国科学院信息工程研究所信息安全国家重点实验室副研究员、硕士生导师，主持国家自然科学基金两项。入选中国科学院青年创新促进会会员，担任中国密码学会青年工作委员会委员。主要研究方向为公钥密码学、可证明安全理论、基本密码组件等。近年在密码学领域高水平期刊Design, Codes and Cryptography等及国际会议CRYPTO、PKC、SCN等上发表学术论文多篇。",
+    ourteam_section5_name:"蒋阳",
+    ourteam_section5_desc:"Sapien Ventures(慧衍创投) 创始人/董事长 – 一家专注于金融科技和区块链的风险投资公司，在澳大利亚\\硅谷，中国均有业务; 坐落在三大洲6家科技公司的董事会（其中在4家担任主席）; 连续创业者; 在全球12个国家生活和工作，曾参与全球五大咨询公司，为“财富”50强企业中的35家企业提供服务，并为多家初创公司提供咨询服务。",
 
 
     cornerstone_title: "InvestDigital的基石投资人",
@@ -231,6 +237,9 @@ const CN = {
     partner_title: "InvestDigital的合作伙伴",
 
     //footer
+    footer_section1_title:"InvestDigital 小秘",
+    footer_section2_title:"InvestDigital电报群",
+    footer_section3_title:"InvestDigital微信公众号",
     footer_title2:"法律条款和声明",
 
     //法律结构
@@ -284,5 +293,29 @@ const CN = {
     risk_section_content11:"InvestDigital项目当前正处于开发阶段，在发布正式版之前可能会进行比较大的改动，任何参与者对InvestDigital应用或IDT的功能或形式（包括参与者的行为）的期望或想象均有可能达不到预期，任何错误地分析，一个设计的改变等均有可能导致这种情况的发生。",
     risk_section_title12:"12.无法预料的其它风险",
     risk_section_content12:" 基于密码学的Token是一种全新且未经测试的技术，除了本白皮书内提及的风险外，还存在着一些创始团队尚未提及或尚未预料到的风险。此外，其它风险也有可能突然出现，或者以多种已经提及的风险的组合的方式出现。",
+
+//    lj 隐私条款
+    footer_title3:"隐私条款",
+
+//    隐私条款
+    privacy_banner_content1:"以下是本平台及其运营公司INVDIGITAL PTY LTD（以下合称“本平台”）的隐私规则。用户成为本平台用户前务必仔细阅读本隐私规则并同意本隐私规则。作为本平台服务的正常操作程序的一部分，本平台收集、使用并（在一些情况下）向第三方披露有关用户的资料。本隐私规则作为本平台服务协议的附件，在用户注册成为本平台用户后立即生效，并对用户及本平台产生约束力。",
+    privacy_banner_title1:"Privacy clause",
+
+//    隐私article
+    privacy_article_title1:"涉及的个人资料",
+    privacy_article_content1:"本平台能在匿名的状态下访问我们的平台并获取信息。在我们请求您提供有关信息之前，我们会解释这些信息的用途，我们有些服务需要注册才能加入。本平台按照用户在本平台上的行为自动追踪关于用户的某些资料。本平台收集用户资料以满足本平台服务所在的国家或地区关于KYC、AML等相关的法律法规。此外，本平台利用这些资料进行有关本平台之用户的人口统计、兴趣及行为的内部研究，以更好地了解用户以便向用户和本平台的用户社区提供更好的服务。本平台在本平台的某些网页上使用诸如“Cookies”的资料收集装置。“Cookies”是设置在用户的硬盘上的小档案，以协助本平台为用户提供度身订造的服务。本平台亦提供某些只能通过使用“Cookies”才可得到的功能。本平台还利用“Cookies”使用户能够在某段期间内减少输入密码的次数。“Cookies”还可以协助本平台提供专门针对用户的兴趣而提供的资料。",
+    privacy_article_title2:"本平台对用户的资料的使用",
+    privacy_article_content2:"用户同意本平台可使用关于用户的个人资料（包括但不限于本平台持有的有关用户的档案中的资料，及本平台从用户目前及以前在本平台上的活动所获取的其他资料）以解决争议、对纠纷进行调停、有助于确保在本平台进行安全的交易，并执行本平台的用户协议。本平台有时候可能调查多个用户以识别问题或解决争议，特别是本平台可能审查用户的资料以区分使用多个用户名或别名的用户。 为限制在平台上的欺诈、非法或其他刑事犯罪活动，使本平台免受其害，用户自愿同意本平台可通过人工或自动程序对用户的个人资料进核实。",
+    privacy_article_title3:"本平台对用户的资料的披露",
+    privacy_article_content3:"本平台将采用行业标准惯例以保护用户的个人资料，但鉴于技术限制，本平台不能确保用户的全部私人通讯及其他个人资料不会通过本隐私规则中未列明的途径泄露出去。同时本平台有义务根据有关法律要求向司法机关和政府部门提供用户的个人资料。",
+    privacy_article_title4:"用户对其他用户的资料的使用 ",
+    privacy_article_content4:"在本平台提供的交易活动中，用户无权要求本平台提供其他用户的个人资料。",
+    privacy_article_title5:"电子邮件",
+    privacy_article_content5:"用户不得使用本平台提供的服务或其他电子邮件转发服务发出垃圾邮件或其他可能违反服务范围内各国家和地区法律和法规、社会道德及本平台的用户协议或隐私规则的内容。本平台除了利用该电子邮件地址发出用户的电子邮件之外将不作任何其他用途。本平台不会出租或出售这些电子邮件地址。本平台不会永久储存电子邮件信息或电子邮件地址。",
+    privacy_article_title6:"账户信息的安全性 ",
+    privacy_article_content6:"用户必须对用户本人在本平台使用的用户名、密码、注册电子邮箱及其他安全设置所采取的一切行为负责，因此，本平台没有义务保管用户的注册资料。",
+    privacy_article_title7:"规则修改",
+    privacy_article_content7:"本平台可能不时按照用户的意见和本平台的需要修改、扩充本隐私规则，以准确地反映本平台的资料收集及披露惯例。",
+
 };
 window.CN = CN;

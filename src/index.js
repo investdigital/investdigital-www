@@ -7,6 +7,7 @@ import Footer from './components/common/footer';
 import Home from './components/home/home';
 import './css/main.css';
 import Law from './components/law/law';
+import Privacy from './components/privacy/privacy';
 
 // const createStoreWithMiddleware = compose(
 //     applyMiddleware(reduxThunk),
@@ -21,6 +22,7 @@ ReactDOM.render(
                     <Header/>
                     <Switch>
                         <Route path="/law" component={Law}/>
+                        <Route path="/privacy" component={Privacy} />
                         <Route path="/" component={Home}/>
                     </Switch>
                     <Footer/>

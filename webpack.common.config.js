@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 let ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 let prod = process.env.NODE_ENV === 'production';
 
 const static1 = [
@@ -19,11 +20,14 @@ module.exports = {
         "vendor": static1,
         "bundle": "./src/index.js",
         "main": "./public/js/main.js",
+        // "language-CN": './public/js/language/CN.js',
+        // "language-EN": './public/js/language/EN.js',
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
         publicPath: prod ? "https://static-cdn.oxchains.com/investdigital-www/" : ""
+
     },
     module: {
         loaders: [{

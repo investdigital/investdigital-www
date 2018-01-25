@@ -7,18 +7,22 @@ const EN = {
     nav_Whitepaper: "Whitepaper",
     nav_Sellin : "Crowdsale Info",
     change_to_lang: "/?lang=CN",
-    nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
+    nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_EN.pdf",
     nav_github_url: "https://github.com/investdigital",
     law_to_lang: "?lang=EN",
 
-    banner_notice: "InvestDigital Formal Launching Announcement",
-    notice_title: "InvestDigital Formal Launching Announcement",
+    banner_notice: "IDT (InvestDigital Token) is listed on AEX notice",
+    notice_title: "IDT (InvestDigital Token) is listed on AEX notice",
     notice_one: "Dear Friends:",
-    notice_two: "Hello everyone! Thank you for your continued attention to InvestDigital project. We are very glad to announce that InvestDigital has first launched on BigONE, a world-famous coin exchange on January 14, 2018.",
-    notice_three: "We will work hard to create a better cryptocurrency investment ecosystem!",
-    notice_four: "",
+    notice_two: "Hello everyone! Thank you for your continued attention to InvestDigital project.",
+
+    notice_three: "IDT is listed on AEX. It is open to charge token now. Transaction will be open on 2018.1.29 12:00 PM. ",
+
+    // notice_three: "We will work hard to create a better cryptocurrency investment ecosystem!",
+    // notice_four: "",
+
     notice_author: "InvestDigital Team",
-    notice_time: "2018.01.14",
+    notice_time: "2018.01.25",
 
     www_title: "One-stop investment platform for cryptocurrencies.",
 
@@ -187,7 +191,7 @@ const EN = {
     team_section7_name: "Zhang Peiyu",
     team_section7_desc: "Master of Science from Chinese University of Hong Kong，Quantitative Researcher from China International Capital Corporation, he is currently working on machine learning, equity investment researching （such as asset portfolios ）. He has rich experience in cryptocurriencies quantitative investment. He’s in charge of quantitative research for InvestDigital.",
 
-    ourteam_title: "Advisors",
+    ourteam_title: "Board of directors and advisory team",
     ourteam_section1_name: "OracleChain",
     ourteam_section1_desc: "As the world's first application built on the EOS ecosystem, OracleChain will address the Oracle (predictive engine) needs of this ecology, enabling direct and efficient docking of blockchain technology services with diverse real-world scenarios. As a decentralized Oracle technology platform based on EOS, OracleChain uses autonomous PoRD mechanisms to bring real-world data into the blockchain and serve as an infrastructure for other blockchain applications. The mission of OracleChain is \"to connect the world with the blockchain.\" It is determined to create the most efficient platform for delivering out-of-chain data in the future blockchain world.",
     ourteam_section2_name: "Ennan Zhai",
@@ -196,6 +200,12 @@ const EN = {
     ourteam_section3_desc: "Associate professor at Peking University and visiting scholar at Mannheim University in Germany. His main research interests include cryptography and security protocols. He is one of the major developers and community leaders in GmSSL, a well-known open source project for the secret algorithm. He has developed Hyperledger Fabric, the National Security Algorithm Suite and tutored several Masters majored in blockchain. He has rich research and engineering experience in the field of performance optimization and security enhancement of elliptic curve cryptography.",
     ourteam_section4_name: "Chen Yu",
     ourteam_section4_desc: "Associate researcher in State Key Laboratory of Information Security in Institute of Information Engineering of CAS, master tutor, presided over two of the National Natural Science Foundation. He was selected as a member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences and a member of the Youth Work Committee of the Chinese Cryptography Society. His main research interests include public-key cryptography, provable security theory, and basic cryptographic components. In recent years, he has published many academic papers on high-level periodicals such as Design, Codes and Cryptography, and international conferences such as CRYPTO, PKC, SCN, etc.",
+    ourteam_section5_name: "Victor Jiang",
+    ourteam_section5_desc: "Founding Chairman of Sapien Ventures – a fintech and blockchain focused VC firm with presence across Silicon Valley, Australia and China; sits on the Board of 6 technology companies across the 3 continents (4 as Chairman); a serial entrepreneur; lived and worked across 12 countries, having worked with 5 of the largest consultancies in the world, 35 of the Fortune 50 companies as clients, and advised many startups.",
+
+
+
+
 
     cornerstone_title: "InvestDigital Cornerstone Investors",
     cornerstone_section1_name: "Bruce Zeng",
@@ -222,6 +232,9 @@ const EN = {
     partner_title: "InvestDigital Partners",
 
     //footer
+    footer_section1_title:"InvestDigital Official Wechat",
+    footer_section2_title:"InvestDigital Telegram Group",
+    footer_section3_title:"InvestDigital Public Wechat",
     footer_title2:"Legal Terms and Conditions",
 
     //法律结构
@@ -275,6 +288,30 @@ const EN = {
     risk_section_content11:"InvestDigital program is currently under development, and there may be some major changes before the release of the official version. Any expectation or imagination of any participant in the function or form of InvestDigital application or IDT (including participant's behaviors) may not be met. Any kind of incorrect analysis or alteration of design might make this kind of things happen.",
     risk_section_title12:"12.Other Unexpected Risks",
     risk_section_content12:"Cryptographic Token is a completely new and untested technology, possibly suffering from some risks. Aside from those mentioned in this whitepaper, there are some risks that some founding teams have not mentioned or have not anticipated yet. Besides, other risks may also appear suddenly, or in a combination of several of the risks already mentioned, adding new unpredictable challenges to the research and development of Cryptographic Token. ",
+
+
+    //    lj 隐私条款
+    footer_title3:"Privacy Policy",
+
+//    隐私条款
+    privacy_banner_content1:"This is the Privacy Policy of this platform and INVDIGITAL PTY LTD which is the Platform operator. Please read this privacy rules carefully and agree it before using the Platform. As a part of normal operating procedures, the Platform collects, applies (under special circumstances) and discloses your information to third parties. As the Platform protocol attachments, the privacy policies immediately come into force and bind you and the Platform after you registering on the Platform.",
+    privacy_banner_title1:"Privacy clause",
+
+//    隐私article
+    privacy_article_title1:"Personal Information",
+    privacy_article_content1:"You can anonymous access to the Platform and obtain information. We will explain the use of the information before requesting you to provide relevant information, and some services of the Platform need your register to access. The Platform will track some datum automatically in accordance with the user’s behavior. The platform collects user information to satisfy the relevant laws and regulations of KYC, AML in countries or regions where the platform service is located. In order to provide better services, the Platform use the datum to make internal statistics, which including but not limited to the number of users and their interest or behavior. The Platform collects the datum using Data Collection Device such as “Cookies”. “Cookies” is a small file set on the user’s hard disk, helping the Platform provide tailor-made services for the uses. And the Platform provides some functions which are realization via the “Cookies” only. The Platform using the “Cookies” reduces the numbers of input password in a certain period. “Cookies” also assists the Platform providing specifically datum for the interesting of users.Data Collection DeviceData Collection Device",
+    privacy_article_title2:"The Use of Personal Information",
+    privacy_article_content2:"You agree that the Platform could use your information (including but not limited to the information in the files which are held by the Platform and other information which are obtained from currently and previously events on the Platform) to resolve disputes, stop arguments, help to ensure that the transactions on the Platform safety, and perform the User Agreement. Occasionally, the Platform needs to identify problems or resolve disputes by investigating multiple users, even reviews the user’s information to identify which user holds multiple ID. For limiting the fraud, illegal and criminal activities on the Platform，you agree that the Platform could check the your personal information either manually or with an automatic program.",
+    privacy_article_title3:"The Disclosure of Personal Information",
+    privacy_article_content3:"The Platform will protect the personal information via industry practice. Due to technical limitations, the Platform cannot ensure that users of all private communications and other personal information will not be disclosed by other sources not listed in the Privacy Policy. The Platform has the obligation to provide personal information to the judicial organs and government departments in accordance with the relevant laws and regulations",
+    privacy_article_title4:"Privacy Inquire",
+    privacy_article_content4:"You have no right to request any user's private information during trading on the Platform.",
+    privacy_article_title5:"E-mail",
+    privacy_article_content5:"You should not be allowed using the services or other e-mail forwarding services provided by the Platform to send spam or to do something which would possible violate the laws and regulations of the countries or regions in our services scope, social morality and the Platform's User Agreement or Privacy Policy content. In addition to send e-mails, the Platform will not use e-mail addresses for any other purpose. The Platform will not rent or sell these e-mail addresses. The Platform will not store e-mail message or e-mail address permanently.",
+    privacy_article_title6:"Responsibility  ",
+    privacy_article_content6:"You should be responsible for your ID, passport, the registered e-mail address and all of other security settings. Therefore, the Platform has no obligation to keep the above information.",
+    privacy_article_title7:"Rules Change",
+    privacy_article_content7:"Perhaps, the Platform will amend or expand the Privacy Policy to reflect the disclosure practices accurately, but not in accordance with the users’ suggestion or the need of the Platform.",
 
 };
 window.EN = EN;

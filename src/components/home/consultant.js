@@ -25,6 +25,7 @@ class Consultant extends Component{
     }
     render(){
         const consultantlist = [
+            {src:`${ROOT_URL}/public/img/jiangyang.png`,name:getLocalValue("ourteam_section5_name"),info:getLocalValue("ourteam_section5_desc")},
             {src:`${ROOT_URL}/public/img/OracleChain.png`,name:getLocalValue("ourteam_section1_name"),info:getLocalValue("ourteam_section1_desc")},
             {src:`${ROOT_URL}/public/img/Ennan Zhai.png`,name:getLocalValue("ourteam_section2_name"),info:getLocalValue("ourteam_section2_desc")},
             {src:`${ROOT_URL}/public/img/chenyu.png`,name:getLocalValue("ourteam_section4_name"),info:getLocalValue("ourteam_section4_desc")}

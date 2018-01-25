@@ -5,7 +5,7 @@ function getQueryString(name) {
 }
 
 export function getLocalValue(key) {
-    let lang = getQueryString("lang") || "CN";
+    let lang = getQueryString("lang") || "EN";
     if (lang === "EN") {
         document.title="One-stop investment platform for cryptocurrencies."
         return window.EN[key];
