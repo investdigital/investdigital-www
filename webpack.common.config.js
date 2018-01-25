@@ -1,24 +1,29 @@
 const path = require('path');
 const webpack = require('webpack');
+let ExtractTextPlugin = require("extract-text-webpack-plugin");
 let prod = process.env.NODE_ENV === 'production';
 
 const static1 = [
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
+    "./public/js/vendor/fancybox/jquery.fancybox.min.js",
     "./public/js/js/hs.core.js",
     "./public/js/js/components/hs.header.js",
     "./public/js/js/helpers/hs.hamburgers.js",
+    "./public/js/js/components/hs.popup.js",
     "./public/js/js/components/hs.scroll-nav.js",
-]
+    "./public/js/language/CN.js",
+    "./public/js/language/EN.js"
+];
 module.exports = {
     entry: {
-        'vendor': static1,
+        "vendor": static1,
         "bundle": "./src/index.js",
         "main": "./public/js/main.js",
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "https://investdigital.info/" : ""
+        publicPath: prod ? "https://static-cdn.oxchains.com/investdigital-www/" : ""
     },
     module: {
         loaders: [{

@@ -2,7 +2,7 @@ import React,{ Component }from 'react';
 import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
 import {ROOT_URL} from '../../actions/types';
-import {getLocalValue} from './language'
+import {getLocalValue} from './language';
 
 class Header extends Component{
     constructor(props) {
@@ -12,7 +12,6 @@ class Header extends Component{
 
     componentDidMount() {
         const $ = window.$;
-
         // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
         $.HSCore.helpers.HSHamburgers.init('.hamburger');
@@ -42,14 +41,19 @@ class Header extends Component{
                               </span>
                             </button>
 
-                            <Link to="/" className="navbar-brand nl-navbar-brand"><img className='nl_logo' src='/public/img/logo.png' alt=""/>InvestDigital</Link>
+                            <Link to="/" className="navbar-brand nl-navbar-brand"><img className='nl_logo' src={`${ROOT_URL}/public/img/logo.png`} alt=""/>InvestDigital</Link>
                             <div className="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--sm" id="navBar">
                                 <ul id="js-scroll-nav" className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                                     <li className='nav-item g-mx-25--lg'>
-                                        <Link to="/" className='nav-link nl-nav-link g-px-0'>
+                                        <Link to={`/${getLocalValue("law_to_lang")}`} className='nav-link nl-nav-link g-px-0'>
                                             {getLocalValue("nav_home")}
                                         </Link>
                                     </li>
+                                    {/*<li className='nav-item g-mx-25--lg'>*/}
+                                        {/*<a href="#crowd-funding" className='nav-link nl-nav-link g-px-0'>*/}
+                                            {/*{getLocalValue("nav_crowd")}*/}
+                                        {/*</a>*/}
+                                    {/*</li>*/}
                                     <li className='nav-item g-mx-25--lg'>
                                         <a href="#ourteam" className='nav-link nl-nav-link g-px-0' >
                                             {getLocalValue("nav_team")}

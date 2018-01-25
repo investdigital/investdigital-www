@@ -3,7 +3,10 @@
  */
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
+import {ROOT_URL} from '../../actions/types';
+// import LazyLoad from 'react-lazyload';
 import {getLocalValue} from '../common/language';
+import LazyLoad from 'react-lazy-load';
 
 class Circuit extends Component{
 
@@ -44,7 +47,9 @@ class Circuit extends Component{
                     </div>
                     <p className="mb-0 g-line-height-1_3 g-mb-100 hidden-sm-down g-font-size-14"></p>
                     <div className="circuit-img hidden-sm-down">
-                        <img width="100%" src={getLocalValue("circuit_img")}/>
+                        <LazyLoad height={"100%"} width={"100%"}>
+                            <img width="100%" src={getLocalValue("circuit_img")}/>
+                        </LazyLoad>
                     </div>
                 </div>
                 <div className="col-lg-12 hidden-md-up">

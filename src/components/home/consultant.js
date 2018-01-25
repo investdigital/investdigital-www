@@ -4,6 +4,8 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
+// import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazy-load';
 
 class Consultant extends Component{
     renderrow(item,index){
@@ -11,7 +13,9 @@ class Consultant extends Component{
             <div className="col-lg-4 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
                 <div className="text-center">
                             <span className="d-inline-block  u-icon-size--xl rounded-circle g-mb-30">
-                              <img className="imgborder g-width-110" style={{height:"115px"}} src={item.src} alt=""/>
+                                <LazyLoad height={"100%"} width={"100%"}>
+                                    <img className="imgborder g-width-110" style={{height:"115px"}} src={item.src} alt=""/>
+                                </LazyLoad>
                             </span>
                     <h3 className="h5 g-color-gray-dark-v2 g-font-weight-600 g-font-size-16 text-uppercase mb-3">{item.name}</h3>
                     <p className="mb-0 text-left g-font-size-12">{item.info}</p>
@@ -21,9 +25,9 @@ class Consultant extends Component{
     }
     render(){
         const consultantlist = [
-            {src:`${ROOT_URL}public/img/OracleChain.png`,name:getLocalValue("ourteam_section1_name"),info:getLocalValue("ourteam_section1_desc")},
-            {src:`${ROOT_URL}public/img/Ennan Zhai.png`,name:getLocalValue("ourteam_section2_name"),info:getLocalValue("ourteam_section2_desc")},
-            {src:`${ROOT_URL}public/img/chenyu.png`,name:getLocalValue("ourteam_section4_name"),info:getLocalValue("ourteam_section4_desc")}
+            {src:`${ROOT_URL}/public/img/OracleChain.png`,name:getLocalValue("ourteam_section1_name"),info:getLocalValue("ourteam_section1_desc")},
+            {src:`${ROOT_URL}/public/img/Ennan Zhai.png`,name:getLocalValue("ourteam_section2_name"),info:getLocalValue("ourteam_section2_desc")},
+            {src:`${ROOT_URL}/public/img/chenyu.png`,name:getLocalValue("ourteam_section4_name"),info:getLocalValue("ourteam_section4_desc")}
         ]
         return(
             <section className="g-py-50 g-pb-100">

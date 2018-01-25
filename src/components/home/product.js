@@ -5,7 +5,7 @@ import React,{ Component }from 'react';
 import {connect} from 'react-redux';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
-
+import LazyLoad from 'react-lazy-load';
 class Product extends Component{
     rendeProduct(item,index){
         return (
@@ -14,7 +14,9 @@ class Product extends Component{
                     <div className="d-flex mr-4">
                         <span className="g-color-primary g-font-size-30">
                           <i className="icon-education-087 u-line-icon-pro">
-                              <img style={{width:"30px",height:"30px"}} src={item.src} alt=""/>
+                              <LazyLoad height={30} width={30}>
+                                <img style={{width:"30px",height:"30px"}} src={item.src} alt=""/>
+                              </LazyLoad>
                           </i>
                         </span>
                     </div>
@@ -38,7 +40,7 @@ class Product extends Component{
         for (let i = 1; i <=6; i++) {
             productItem.push(
                 {title:getLocalValue("product_section" + i + "_title"),
-                    src:`${ROOT_URL}public/img/product${i}.png`,
+                    src:`${ROOT_URL}/public/img/product${i}.png`,
                     content:getLocalValue("product_section" + i + "_content")})
         }
         return(

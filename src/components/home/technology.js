@@ -4,14 +4,16 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
-
+import LazyLoad from 'react-lazy-load';
 class Technology extends Component{
     renderrow(item,index){
         return (
             <div className="col-sm-6 col-lg-3 application-item" key={index}>
                 <article className="u-block-hover">
                     <figure className="g-overflow-hidden">
-                        <img className="img-fluid u-block-hover__main--zoom-v1" src={item.src} alt=""/>
+                        <LazyLoad height={"100%"} width={"100%"}>
+                            <img className="img-fluid u-block-hover__main--zoom-v1" src={item.src} alt=""/>
+                        </LazyLoad>
                     </figure>
                     <div className=" g-pa-20">
                         <h3 className="text-uppercase g-font-weight-700 g-font-size-14 text-center">{item.title}</h3>
@@ -32,7 +34,7 @@ class Technology extends Component{
             {src:`${ROOT_URL}public/img/technology4.png`,title:"匿名声誉评价——公平", title2:"首个支持匿名特性的声誉评价机制 ", p1:"InvestDigital通过声誉机制实现带有奖励和惩罚的激励来维护社区的良好环境。声誉系统的一大优势是基于可验证洗牌和关联环签名技术，在不泄露用户真实身份的前提下，完成匿名的声誉计算，提升用户的参与程度和忠诚度。" },*/
         ]
         for (let i = 2; i <=4; i++) {
-            listinfo.push({src:`${ROOT_URL}public/img/technology${i}.png`,
+            listinfo.push({src:`${ROOT_URL}/public/img/technology${i}.png`,
                 title:getLocalValue("technology_section" + i + "_title"),
                 title2:getLocalValue("technology_section" + i + "_desc"),
                 p1:getLocalValue("technology_section" + i + "_content") });
@@ -51,7 +53,9 @@ class Technology extends Component{
                         <div className="col-sm-6 col-lg-3 application-item">
                             <article className="u-block-hover">
                                 <figure className="g-overflow-hidden">
-                                    <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}public/img/technology1.png`} alt=""/>
+                                    <LazyLoad height={"100%"} width={"100%"}>
+                                        <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}/public/img/technology1.png`} alt=""/>
+                                    </LazyLoad>
                                 </figure>
                                 <div className=" g-pa-20">
                                     <h3 className="text-uppercase g-font-weight-700 g-font-size-14 text-center" >{getLocalValue("technology_section1_title")}</h3>

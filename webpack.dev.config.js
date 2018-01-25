@@ -11,10 +11,6 @@ module.exports = Merge(common,{
             template: 'index.ejs',
             publicPath: './',
         }),
-        new CopyWebpackPlugin([{
-            from: './public',
-            to: 'public'
-        }])
     ],
     devtool: 'eval-source-map',
     devServer: {
