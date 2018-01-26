@@ -1,6 +1,6 @@
 import {ROOT_URL} from '../../../src/actions/types';
 const EN = {
-    nav_home: "HomePage",
+    nav_home: "Home",
     nav_crowd:"Pre Sale",
     nav_team: "Team",
     nav_language: "中文",

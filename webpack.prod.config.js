@@ -9,7 +9,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = Merge(common,{
     plugins: [
         new HtmlWebpackPlugin({
-            title: "数字货币一站式投资服务平台",
+            title: "One-stop investment platform for cryptocurrencies.",
             template: path.join(__dirname, 'index.ejs'),
             publicPath: 'https://static-cdn.oxchains.com/investdigital-www/',
             filename: 'index.html',
