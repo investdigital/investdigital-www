@@ -10,7 +10,7 @@ class Privacy extends Component{
     }
     render(){
         return(
-            <section id="about-section" className="g-bg-secondary g-pos-rel law-container" ref={node => this.node = node}>
+            <section style={{marginTop:"-62px", paddingTop:"62px"}} id="about-section" className="g-bg-secondary g-pos-rel law-container" ref={node => this.node = node}>
                 <PrivacyBanner/>
                 <PrivacyArticle/>
             </section>

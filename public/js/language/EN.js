@@ -1,6 +1,7 @@
 import {ROOT_URL} from '../../../src/actions/types';
 const EN = {
     nav_home: "Home",
+    nav_currency: "Cryptocurrency Fund",
     nav_crowd:"Pre Sale",
     nav_team: "Team",
     nav_language: "中文",
@@ -177,9 +178,9 @@ const EN = {
     team_section4_name: "Chao Hui",
     team_section4_desc: "Senior experts in Internet technology and product technology management. Chao left Peking University during his doctor of science study to start an entrepreneurship. He had served as a senior director in Snowball and a senior structurer in Alipay, Alibaba, with 15 years of experience in development and management of large-scale financial and Internet system. He’s in charge of InvestDigital system architecture.",
     team_section5_name: "Zhang Li",
-    team_section5_desc: "Previous equity investment manager in Asset Management Branch, Founder Securities, Peking University Ph.D., quantitative trading expert, senior securities investment expert. He has 8 years of experience in securities, 13 years of research in financial informatization, rich experience in asset management and client resources. He’s in charge of marketing and community building for InvestDigital.",
+    team_section5_desc: "Former equity investment manager in famous Securities Company, quantitative trading expert, senior securities investment expert. He has 8 years of experience in securities, 13 years of research in financial informatization, rich experience in asset management and client resources. He’s in charge of marketing and community building for InvestDigital.",
     team_section6_name: "Wang Qianfeng",
-    team_section6_desc: "Previous senior product manager of Taikang Asset Management, Master of Financial Engineering of The Chinese University of Hong Kong, expert of robot advisor, and the author of \"Quantitative Asset Allocation\", a monograph on robot advisor. He has participated in the development and issuance of Shanghai-Hong Kong-Shenzhen investment products, MSCI index products and quantitative strategy products. He’s in charge of project investment strategy and product risk control in InvestDigital.",
+    team_section6_desc: "Former senior product manager in famous asset management institution, Master of Financial Engineering of The Chinese University of Hong Kong, expert of robot advisor, and the author of \"Quantitative Asset Allocation\", a monograph on robot advisor. He has participated in the development and issuance of Shanghai-Hong Kong-Shenzhen investment products, MSCI index products and quantitative strategy products. He’s in charge of project investment strategy and product risk control in InvestDigital.",
     team_section9_name: "Tang Cong",
     team_section9_desc: "Doctor of Science from Peking University, visiting scholar at New York University, previous product director of VRV, expert in blockchain, distributed ledger, network and information security. Tang has rich experience in blockchain structure designing and system developing, and led lots of blockchain products and applications crossing industries. He’s in charge of blockchain and cryptography technology architecture of InvestDigital.",
     team_section10_name: "Meng Hongwei",
@@ -189,7 +190,7 @@ const EN = {
     team_section11_name: "Liu Han",
     team_section11_desc: "Tsinghua University Ph.D., visiting scholar at University of California, Davis. His main research area covers software defect detection, vulnerability analysis and software testing. He has developed a number of software security verification and automated test platforms, he’s in charge of smart contracts’ formal verification for InvestDigital.",
     team_section7_name: "Zhang Peiyu",
-    team_section7_desc: "Master of Science from Chinese University of Hong Kong，Quantitative Researcher from China International Capital Corporation, he is currently working on machine learning, equity investment researching （such as asset portfolios ）. He has rich experience in cryptocurriencies quantitative investment. He’s in charge of quantitative research for InvestDigital.",
+    team_section7_desc: "Master of Science from Chinese University of Hong Kong，Quantitative Researcher in China top Securities Company, he is currently working on machine learning, equity investment researching （such as asset portfolios ）. He has rich experience in cryptocurriencies quantitative investment. He’s in charge of quantitative research for InvestDigital.",
 
     ourteam_title: "Board of directors and advisory team",
     ourteam_section1_name: "OracleChain",
@@ -312,6 +313,10 @@ const EN = {
     privacy_article_content6:"You should be responsible for your ID, passport, the registered e-mail address and all of other security settings. Therefore, the Platform has no obligation to keep the above information.",
     privacy_article_title7:"Rules Change",
     privacy_article_content7:"Perhaps, the Platform will amend or expand the Privacy Policy to reflect the disclosure practices accurately, but not in accordance with the users’ suggestion or the need of the Platform.",
-
+//    数字货币基金
+    currency_title1:"Cryptocurrency Fund Contractual Relations",
+    currency_image1:`${ROOT_URL}/public/img/currencyTop_EN.png`,
+    currency_title2:"Cryptocurrency Fund Life Cycle Management",
+    currency_image2:`${ROOT_URL}/public/img/currencyFooter_EN.png`,
 };
 window.EN = EN;

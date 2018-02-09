@@ -10893,7 +10893,7 @@ var snow_core_web_Runtime = function(_app) {
 	this.app.platform = "web";
 	this.app.os = this.guess_os();
 	snow_core_web_Runtime.timestamp_start = window.performance.now() / 1000.0;
-	this.app.config.runtime = { window_id : "app", window_parent : window.document.body, prevent_default_context_menu : true, prevent_default_mouse_wheel : true, prevent_default_touches : true, prevent_default_keys : [1073741904,1073741903,1073741906,1073741905,8,9,127]};
+	this.app.config.runtime = { window_id : "app", window_parent : document.getElementById("iohk"), prevent_default_context_menu : true, prevent_default_mouse_wheel : true, prevent_default_touches : true, prevent_default_keys : [1073741904,1073741903,1073741906,1073741905,8,9,127]};
 	var _list = ($_=window.navigator,$bind($_,$_.getGamepads)) != null?window.navigator.getGamepads():window.navigator.webkitGetGamepads != null?window.navigator.webkitGetGamepads():null;
 	if(_list != null) {
 		this.gamepads_supported = true;

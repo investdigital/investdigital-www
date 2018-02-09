@@ -55,7 +55,7 @@ class Footer extends Component{
                                     <img src={`${ROOT_URL}/public/img/id_wechat.jpg`} style={{width: "110px", marginLeft: "3%"}}/>
                                 </LazyLoad>
                                 <br/>
-                                InvestDigital微信公众号
+                                <span style={{width:"90%",display:"inline-block"}}>{getLocalValue("footer_section3_title")}</span>
                             </div>
                             <div className={"g-pt-30"}>
                                 <div  style={{width: "49%", display: "inline-block", textAlign: "right", paddingRight: "6%"}}>

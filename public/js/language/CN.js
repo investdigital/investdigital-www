@@ -1,6 +1,7 @@
 import {ROOT_URL} from '../../../src/actions/types';
 const CN = {
     nav_home: "首页",
+    nav_currency: "数字货币基金",
     nav_crowd:"预售",
     nav_team: "团队",
     nav_language: "EN",
@@ -316,6 +317,10 @@ const CN = {
     privacy_article_content6:"用户必须对用户本人在本平台使用的用户名、密码、注册电子邮箱及其他安全设置所采取的一切行为负责，因此，本平台没有义务保管用户的注册资料。",
     privacy_article_title7:"规则修改",
     privacy_article_content7:"本平台可能不时按照用户的意见和本平台的需要修改、扩充本隐私规则，以准确地反映本平台的资料收集及披露惯例。",
-
+//    数字货币基金
+    currency_title1:"数字货币基金契约关系",
+    currency_image1:`${ROOT_URL}/public/img/currencyTop_CN.png`,
+    currency_title2:"数字货币基金生命周期管理",
+    currency_image2:`${ROOT_URL}/public/img/currencyFooter_CN.png`,
 };
 window.CN = CN;

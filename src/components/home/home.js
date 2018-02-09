@@ -28,8 +28,8 @@ class Home extends Component{
     render(){
         return(
             <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
-                <Banner/>
-                {/*<BannerNew/>*/}
+                {/*<Banner/>*/}
+                <BannerNew/>
                 <Tendency/>
                 <MarketRequirement/>
                 <Goal/>

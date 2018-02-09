@@ -23,7 +23,7 @@ class Header extends Component{
                  data-header-fix-moment="500"
                  data-header-fix-effect="slide">
                 <div
-                    data-header-fix-moment-exclude="g-bg-white g-py-15"
+                    data-header-fix-moment-exclude="g-bg-white"
                     data-header-fix-moment-classes="g-bg-white-opacity-0_8 u-shadow-v18 g-py-5">
                     <nav className="navbar navbar-toggleable-md">
                         <div className="container">
@@ -49,13 +49,18 @@ class Header extends Component{
                                             {getLocalValue("nav_home")}
                                         </Link>
                                     </li>
+                                    <li className='nav-item g-mx-25--lg'>
+                                        <Link to={`/currency${getLocalValue("law_to_lang")}`} className='nav-link nl-nav-link g-px-0'>
+                                            {getLocalValue("nav_currency")}
+                                        </Link>
+                                    </li>
                                     {/*<li className='nav-item g-mx-25--lg'>*/}
                                         {/*<a href="#crowd-funding" className='nav-link nl-nav-link g-px-0'>*/}
                                             {/*{getLocalValue("nav_crowd")}*/}
                                         {/*</a>*/}
                                     {/*</li>*/}
                                     <li className='nav-item g-mx-25--lg'>
-                                        <a href="#ourteam" className='nav-link nl-nav-link g-px-0' >
+                                        <a href={`/${getLocalValue("law_to_lang")}#ourteam`} className='nav-link nl-nav-link g-px-0' >
                                             {getLocalValue("nav_team")}
                                         </a>
                                     </li>

@@ -22,7 +22,21 @@ class BannerNew extends Component{
         // $("#iohk").css("min-height",window.innerHeight)
         $("#iohk").height(window.innerHeight);
         $(window).resize(function() { $("#iohk").height(window.innerHeight); });
+        if($("#io_intro").hasClass('ready')){
+            $.getScript( `${ROOT_URL}/public/js/gpu/GPUFluid-1.3.js`, function( data, textStatus, jqxhr ) {
+                $("#io_intro .preloader").remove();
+                $(".banner-con").removeClass('opa0');
+                $.getScript( `${ROOT_URL}/public/js/gpu/three761.min.js`, function( data, textStatus, jqxhr ) {
+                    $.getScript( `${ROOT_URL}/public/js/gpu/home.js`, function( data, textStatus, jqxhr ) {
+                        io_intro();
 
+                    });
+                });
+            });
+        }
+        if(!$("body").hasClass('transin')){
+            $("body").addClass('transin');
+        }
     }
     render(){
         return(
