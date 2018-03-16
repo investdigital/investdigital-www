@@ -49,11 +49,11 @@ class Header extends Component{
                                             {getLocalValue("nav_home")}
                                         </Link>
                                     </li>
-                                    <li className='nav-item g-mx-25--lg'>
-                                        <Link to={`/currency${getLocalValue("law_to_lang")}`} className='nav-link nl-nav-link g-px-0'>
-                                            {getLocalValue("nav_currency")}
-                                        </Link>
-                                    </li>
+                                    {/*<li className='nav-item g-mx-25--lg'>*/}
+                                        {/*<Link to={`/currency${getLocalValue("law_to_lang")}`} className='nav-link nl-nav-link g-px-0'>*/}
+                                            {/*{getLocalValue("nav_currency")}*/}
+                                        {/*</Link>*/}
+                                    {/*</li>*/}
                                     {/*<li className='nav-item g-mx-25--lg'>*/}
                                         {/*<a href="#crowd-funding" className='nav-link nl-nav-link g-px-0'>*/}
                                             {/*{getLocalValue("nav_crowd")}*/}

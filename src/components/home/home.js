@@ -22,14 +22,30 @@ import CrowdFunding from './crowd_funding';
 import {getLocalValue} from '../common/language';
 
 class Home extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            flag:true
+        };
+    }
     componentDidMount() {
         this.node.scrollIntoView();
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ["Android", "iPhone",
+            "SymbianOS", "Windows Phone",
+            "iPad", "iPod"];
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+               this.setState({
+                   flag:false
+               })
+            }
+        }
     }
     render(){
         return(
             <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
-                {/*<Banner/>*/}
-                <BannerNew/>
+                {this.state.flag ?  <BannerNew/> : <Banner/>}
                 <Tendency/>
                 <MarketRequirement/>
                 <Goal/>

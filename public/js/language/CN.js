@@ -97,7 +97,7 @@ const CN = {
     technology_section4_content: "InvestDigital通过声誉机制实现带有奖励和惩罚的激励来维护社区的良好环境。声誉系统的一大优势是基于可验证洗牌和关联环签名技术，在不泄露用户真实身份的前提下，完成匿名的声誉计算，提升用户的参与程度和忠诚度。",
 
 
-    news_title:'InvestDigital的新闻',
+    news_title:'InvestDigital的动态',
     news_section1_time1:"链向Hilary",
     news_section1_time2:"2018年1月9日",
     news_section1_title:"【InvestDigital专访】让数字货币投资不再复杂！",

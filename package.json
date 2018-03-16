@@ -42,7 +42,7 @@
     "webpack-merge": "^4.1.0"
   },
   "scripts": {
-    "start": "webpack-dev-server  --config webpack.dev.config  --progress",
+    "start": "webpack-dev-server  --config webpack.dev.config  --progress --host 0.0.0.0",
     "build": "export NODE_ENV=production && webpack -p  --config webpack.prod.config --progress --colors"
   },
   "author": "",

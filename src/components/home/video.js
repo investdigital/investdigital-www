@@ -28,7 +28,7 @@ class Video extends Component{
                                 <source src={`${ROOT_URL}/public/img/bgVideo.mp4`} type="video/mp4" />
                             </video>
                         <div className={"na"}>
-                            <a className="js-fancybox d-block" title="Single Image" href="https://player.youku.com/embed/XMzE5NTA1ODI5Mg==">
+                            <a className="js-fancybox d-block" title="Single Image" href="https://player.youku.com/embed/XMzM5ODM3OTgxMg==">
                                 <span className="u-icon-v3 u-icon-size--lg  g-color-black g-color-primary--hover g-font-size-20 g-rounded-50x g-cursor-pointer">
                                     <i className="g-pos-rel g-left-2 fa fa-play"></i></span>
                             </a>

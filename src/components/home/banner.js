@@ -16,17 +16,17 @@ class Banner extends Component{
             visible: false
         };
     }
-    handleChange(){
-        this.setState({
-            show:!this.state.show
-        })
-    }
     componentDidMount() {
         const $ = window.$;
         // initialization of scroll animation
         $.HSCore.components.HSHeader.init($('#js-header'));
     }
 
+    handleChange(){
+        this.setState({
+            show:!this.state.show
+        })
+    }
     showModal() {
         this.setState({
             visible: true,
@@ -90,10 +90,10 @@ class Banner extends Component{
                                 <div className="g-mt-20">
                                     <div className="select-design" onClick={this.handleChange.bind(this)} >
                                         <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
-                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
-                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
-                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
-                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="https://investdigital.info/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="https://investdigital.info/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="https://investdigital.info/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
                                     </div>
                                 </div>
                             </div>
